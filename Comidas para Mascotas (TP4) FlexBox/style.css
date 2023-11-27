@@ -1,0 +1,294 @@
+/*----------------------------------------------------------TOP 1 ----------------------------------------------------------*/
+/* Estilos para el encabezado (header) */
+.top-section {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto en el encabezado */
+    padding: 10px; /* Espaciado interior para separar el contenido */
+    display: flex;
+    justify-content: space-between; /* Alineación de los elementos en el encabezado */
+}
+
+/* Estilos para el mensaje de ofertas */
+.ofertas {
+    margin-left: 10px; /* Margen izquierdo para separar del borde */
+}
+
+/* Estilos para los selectores de idioma y moneda */
+.idioma-monedas {
+    margin-right: 10px; /* Margen derecho para separar del borde */
+}
+
+/* Estilos para los selectores desplegables (select) */
+select {
+    background-color: #fff; /* Color de fondo del selector */
+    color: #333; /* Color del texto en el selector */
+    padding: 5px;
+    border: none; /* Quitar el borde predeterminado */
+}
+
+/*----------------------------------------------------------HEADER 2 ----------------------------------------------------------*/
+/* Estilos para el encabezado (header) */
+
+
+/* Estilos para el menú */
+/* Estilos para la sección del encabezado con el logotipo y el menú */
+header {
+    background-color: #fb923c; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto en el encabezado */
+    padding: 10px; /* Espaciado interior para separar el contenido */
+    display: flex;
+    justify-content: space-between; /* Alineación de los elementos en el encabezado */
+    align-items: center; /* Alineación vertical de los elementos en el centro */
+}
+
+/* Estilos para el logotipo */
+.logo img {
+    max-width: 400px; /* Ancho máximo del logotipo */
+    margin-right: 20px; /* Margen derecho para separar del menú */
+}
+
+/* Estilos para el menú */
+.menu ul {
+    list-style-type: none; /* Quitar los puntos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline; /* Mostrar elementos de la lista en línea (horizontalmente) */
+    margin-right: 20px; /* Margen derecho entre elementos del menú */
+}
+
+.menu a {
+    text-decoration: none; /* Quitar subrayado de enlaces */
+    color: #fff; /* Color del texto de los enlaces del menú */
+}
+
+/*----------------------------------------------------------MAIN LOS 3 PRODUCTOS DESTACADOS 3----------------------------------------------------------*/
+/* Estilos para la imagen principal */
+main img {
+    width: 100%; /* Establece el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Asegura que la altura se ajuste automáticamente para mantener la proporción */
+}
+
+
+.superposicion {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para resaltar el texto */
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.superposicion h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.superposicion h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.superposicion .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos para la sección de productos destacados section 1 */
+section {
+    text-align: center; /* Centrar el contenido horizontalmente */
+    padding: 20px 0; /* Espaciado en la parte superior e inferior */
+}
+
+/* Estilos para el encabezado de "Productos Destacados" */
+.destacados-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar los elementos verticalmente */
+}
+
+/* Estilos para la imagen del logo */
+.destacados-header img {
+    max-width: 100px; /* Ajusta el ancho máximo según tus preferencias */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Estilos para los títulos y texto */
+.destacados-header h1, .destacados-header p {
+    margin: 10px 0; /* Añade espaciado entre los elementos */
+}
+
+/* Estilos para el encabezado de "Productos Destacados" */
+.destacados-header {
+    display: inline-block; /* Para que el contenido se centre correctamente */
+}
+
+
+/* Estilos para la sección de "Productos Destacados" section 2 */
+.productos-destacados {
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+/* Estilos para cada producto */
+.producto {
+    display: inline-block; /* Muestra los productos en línea (uno al lado del otro) */
+    margin: 0 10px; /* Añade margen a los lados de cada producto para separarlos */
+}
+
+
+/*----------------------------------------------------------FORMULARIO 4 ----------------------------------------------------------*/
+/* Estilos para el formulario de contacto */
+#formulario-contacto {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 auto; /* Centra el formulario en el medio de la página horizontalmente */
+    max-width: 600px; /* Establece un ancho máximo para el formulario */
+}
+
+/* Resto de tus estilos para el formulario... */
+
+/* Estilos para los grupos de formulario */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Estilos para los botones del formulario */
+.form-buttons {
+    text-align: center;
+}
+
+.form-buttons button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.form-buttons button[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+}
+
+.form-buttons button:hover {
+    background-color: #555;
+}
+
+/*----------------------------------------------------------Footer dentro del main 5----------------------------------------------------------*/
+/* Estilos para el footer dentro del main */
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-left img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.footer-left p {
+    font-weight: bold;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+#formulario-suscripcion {
+    display: flex;
+    align-items: center;
+}
+
+#correo-suscripcion {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#correo-suscripcion::placeholder {
+    color: #cbd5e1;
+}
+
+#formulario-suscripcion button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el botón de submit al pasar el cursor sobre él */
+#formulario-suscripcion button:hover {
+    background-color: #555;
+}
+
+/*----------------------------------------------------------Footer original 6----------------------------------------------------------*/
+/* Estilos para el footer */
+footer {
+    background-color: #fb923c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Estilos para la sección izquierda con las tres imágenes */
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.info img {
+    max-width: 24px;
+    margin-right: 10px;
+}
+
+/* Estilos para la sección derecha con el logo */
+.right-section {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Comida para Mascotas (TP4)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- En esta sección puedes incluir metadatos, hojas de estilo (CSS) y otros recursos -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!-------------------------------------------TOP 1------------------------------------------->
+    <!--Para crear la parte superior de tu página web con el mensaje "Grandes ofertas en comedores" en la esquina izquierda y las opciones de idioma y moneda en la esquina derecha,
+         puedes utilizar HTML y CSS. Aquí te muestro un ejemplo de cómo podrías hacerlo:-->
+     <div class="top-section">
+        <div class="ofertas">Grandes ofertas en comedores</div>
+        <div class="idioma-monedas">
+            <select id="idioma">
+                   <option value="es">Español</option>
+                   <option value="en">English</option>
+            </select>
+            <select id="moneda">
+                   <option value="ARS">ARG$</option>
+                   <option value="USD">USD$</option>
+            </select>
+         </div>
+    </div>
+
+    <!-------------------------------------------HEADER 2------------------------------------------->
+    <header>
+        <!--Para crear el encabezado (header) con un menú a la izquierda y un logotipo a la derecha, así como los elementos del menú "Categorías", "Pets", "Nosotros" y "Contáctanos",
+             puedes seguir este ejemplo de código HTML y CSS:
+        -->
+        <div class="logo">
+            <img src="/img/Logo.png" alt="Logo de la tienda">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Categorías</a></li>
+                <li><a href="#">Pets</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contáctanos</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-------------------------------------------MAIN 3------------------------------------------->
+    <main>
+        <!-- En la sección principal, puedes colocar el contenido principal de tu página -->
+        <!-- Imagen principal de la página -->
+    <img src="/img/imagen-principal.png" alt="Imagen principal de productos para mascotas">
+    <div class="superposicion">
+        <h1>¡Es un placer tenerte aquí!</h1>
+        <h2>¡Comederos en descuento!</h2>
+        <a href="#" class="boton">COMEDEROS</a>
+    </div>
+
+    <section>
+        <div class="destacados-header">
+            <img src="/img/huella-perro.png" alt="Logo de productos destacados">
+            <h1>Productos Destacados</h1>
+            <p>Comedor - Accesorios - Comida</p>
+        </div> 
+    </section>
+    
+
+    <!-- Sección de productos destacados -->
+    <section class="productos-destacados">      
+        <div class="producto">
+            <img src="/img/1-Churrasquito.png" alt="Producto 1">
+            <p>Precio: $19.99</p>
+        </div>
+        <div class="producto">
+            <img src="/img/2-Comedero.png" alt="Producto 2">
+            <p>Precio: $24.99</p>
+        </div>
+        <div class="producto">
+            <img src="/img/3-Huesito-juguete.png" alt="Producto 3">
+            <p>Precio: $29.99</p>
+        </div>
+    </section>
+
+    <!-------------------------------------------4 FORMULARIO------------------------------------------->
+    <!-- Formulario de contacto -->
+    <form id="formulario-contacto">
+        <h1>Contáctanos</h1>
+        <div class="form-group">
+            <label for="nombre-apellido">Nombre y Apellido:</label>
+            <input type="text" id="nombre-apellido" name="nombre-apellido" required>
+        </div>
+        <div class="form-group">
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+        </div>
+        <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+        </div>
+        <div class="form-buttons">
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetear</button>
+        </div>
+    </form>
+
+    <!-------------------------------------------5 Footer dentro del main------------------------------------------->
+        <!-- Footer dentro del main -->
+    <footer class="main-footer">
+        <div class="footer-left">
+            <!-- Logo -->
+            <img src="/img/Logo-footer.png" alt="Logo del footer">
+            <!-- Mensaje de suscripción -->
+            <p>Suscríbete para más novedades</p>
+        </div>
+        <div class="footer-right">
+            <!-- Formulario de suscripción -->
+            <form id="formulario-suscripcion">
+                <input type="email" id="correo-suscripcion" name="correo" placeholder="Correo Electrónico" required>
+                <button type="submit">Suscribirme</button>
+            </form>
+        </div>
+    </footer>
+    </main>
+
+    <!-------------------------------------------6 Footer Original------------------------------------------->
+    <!-------------------------------------------FOOTER------------------------------------------->
+    <footer>
+         <!-- Sección izquierda con las tres imágenes -->
+    <div class="left-section">
+        <div class="info">
+            <img src="/img/1-Icono-localidad.png" alt="Localidad">
+            <p>Calle Ficticia 123, Provincia Ficticia</p>
+        </div>
+        <div class="info">
+            <img src="/img/2-Icono-phone.png" alt="Teléfono">
+            <p>Teléfono 123456789</p>
+        </div>
+        <div class="info">
+            <img src="/img/3-Icono-correo.png" alt="Correo Electrónico">
+            <p>correoficticio@gmail.com.</p>
+        </div>
+    </div>
+    <!-- Logo en la parte derecha -->
+    <div class="right-section">
+        <img src="/img/Logo.png" alt="Logo del footer">
+    </div>
+        <!-- El pie de página puede contener información de contacto, enlaces legales, etc. -->
+        <p>Todos los derechos reservados &copy; 2023 Franco</p>
+
+    </footer>
+</body>
+</html>
